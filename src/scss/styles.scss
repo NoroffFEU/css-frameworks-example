@@ -1,7 +1,2 @@
-.test {
-  display: none;
-
-  &-nest {
-    display: block;
-  }
-}
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
