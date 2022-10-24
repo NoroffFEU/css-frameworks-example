@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/Fermain/css-frameworks-example/issues"
   },
-  "homepage": "https://github.com/Fermain/css-frameworks-example#readme"
+  "homepage": "https://github.com/Fermain/css-frameworks-example#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
 }
