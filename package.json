@@ -4,7 +4,8 @@
   "description": "CSS Frameworks social media project",
   "main": "index.js",
   "scripts": {
-    "build": "sass src/scss:dist/css"
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "bootstrap": "^5.2.2"
   },
   "devDependencies": {
+    "live-server": "^1.2.2",
     "sass": "^1.55.0"
   }
 }
